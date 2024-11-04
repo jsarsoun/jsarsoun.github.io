@@ -1,0 +1,14 @@
+{
+  "name": "ai-initiatives",
+  "homepage": "https://jsarsoun.github.io/react-gh-pages",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
